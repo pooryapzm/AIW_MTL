@@ -1,0 +1,34 @@
+data: PATH_TO_DATA/farsi,PATH_TO_DATA/amr
+save_model: model
+meta_step_report: 10
+mtl_schedule: 0
+shared_dec_layers: 0
+shared_enc_layers: 1
+epochs: 25
+mtl_gamma: 1,1,1,1
+train_steps: 100000
+report_every: 1
+seed: 198919891989
+dropout: 0.3
+rnn_type: LSTM
+encoder_type: rnn
+decoder_type: rnn
+input_feed: 1
+dec_layers: 1
+optim: adam
+max_grad_norm: 5
+decay_method: performance
+rnn_size: 200
+batch_size: 32
+learning_rate: 0.001
+enc_layers: 1
+word_vec_size: 200
+mtl_shared_vocab: True
+mtl_shared_vocab_path: PATH_TO_DATA/shared
+share_decoder_bottom: True
+meta_batch_weighting_mode: 1
+normalization: sents
+meta_mtl_concat_mode: concat
+meta_output: meta_output.txt
+
+
