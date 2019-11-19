@@ -2,7 +2,7 @@
 
 This is an implementation of our paper:
 
-P. ZareMoodi, G. Haffari, ”Adaptively Scheduled Multitask Learning: The Case of Low-Resource Neural Machine Translation,” Proceedings of the 3rd Workshop on Neural Machine Translation and Generation, EMNLP 2019.
+P. ZareMoodi, G. Haffari, ”Adaptively Scheduled Multitask Learning: The Case of Low-Resource Neural Machine Translation,” Proceedings of the 3rd Workshop on Neural Machine Translation and Generation, co-located with EMNLP 2019.
 
 ## Requirement
 This code requires my modified version of PyTorch to run on GPUs. I have modified the PyTorch source code as the official version has not supported some of the
