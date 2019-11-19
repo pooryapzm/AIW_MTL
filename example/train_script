@@ -1,0 +1,25 @@
+#!/bin/bash
+
+#SBATCH --gres=gpu:1
+#SBATCH --account=XXX
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+
+#SBATCH --job-name=XXX
+#SBATCH --mem=40000
+#SBATCH --time=6-00:00:00
+#SBATCH --output=XXX
+#SBATCH --partition=XXX
+
+. /usr/local/anaconda/5.1.0-Python3.6-gcc5/etc/profile.d/conda.sh
+conda activate gradPytorch
+
+echo "Start training ..."
+
+
+echo "Training the model ..."
+python3 ../train.py -gpu_ranks 0 -config ./train.yml > ./train_log 2>&1
+
+echo "Training is finished!"
+
+bash ./test_script
