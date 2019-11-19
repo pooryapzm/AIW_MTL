@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9e8300c8-43f2-4335-9d89-d71809ce2363" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/config/config-rnn-summarization.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config-transformer-base-1GPU.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config-transformer-base-4GPU.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/development.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/morph/src.train" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/morph/src.valid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/morph/tgt.train" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/morph/tgt.valid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/src-test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/src-train.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/src-val.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test_model2.src" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test_model2.tgt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/tgt-train.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/tgt-val.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/generate.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/FAQ.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/Library.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/Library.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/Summarization.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/conf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/examples.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/extended.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/im2text.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/index.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/main.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/modules.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/onmt.io.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/onmt.modules.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/onmt.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/onmt.translation.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/options/preprocess.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/options/train.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/options/translate.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/quickstart.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/ref.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/refs.bib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/speech2text.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/onmt/extended_torchtext/batch.py" beforeDir="false" afterPath="$PROJECT_DIR$/onmt/extended_torchtext/batch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onmt/trainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/onmt/trainer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onmt/utils/statistics.py" beforeDir="false" afterPath="$PROJECT_DIR$/onmt/utils/statistics.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/onmt/extended_torchtext/batch.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/onmt/trainer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-7117">
+              <caret line="318" column="74" selection-start-line="318" selection-start-column="74" selection-end-line="318" selection-end-column="74" />
+              <folding>
+                <element signature="e#454#488#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/onmt/train_single.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4101" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/onmt/opts.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/onmt/model_builder.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4730" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/onmt/meta_modules/meta_module.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="136">
+                <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/onmt/utils/statistics.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="867">
+              <caret line="58" column="65" selection-start-line="58" selection-start-column="65" selection-end-line="58" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/train.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1415" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/translate.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>poorya</find>
+      <find># poorya</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/onmt/extended_torchtext/batch.py" />
+        <option value="$PROJECT_DIR$/onmt/trainer.py" />
+        <option value="$PROJECT_DIR$/onmt/utils/statistics.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/AIW_MTL.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AIW_MTL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AIW_MTL" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AIW_MTL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AIW_MTL" type="462c0819:PsiDirectoryNode" />
+              <item name="onmt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AIW_MTL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AIW_MTL" type="462c0819:PsiDirectoryNode" />
+              <item name="onmt" type="462c0819:PsiDirectoryNode" />
+              <item name="meta_modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9e8300c8-43f2-4335-9d89-d71809ce2363" name="Default Changelist" comment="" />
+      <created>1574164912176</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574164912176</updated>
+      <workItem from="1574164916892" duration="214000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="214000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/config/development.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config-transformer-base-4GPU.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config-transformer-base-1GPU.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config-rnn-summarization.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocess.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onmt/extended_torchtext/batch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="136">
+            <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onmt/utils/statistics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="58" column="65" selection-start-line="58" selection-start-column="65" selection-end-line="58" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1415" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/translate.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onmt/trainer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7117">
+          <caret line="318" column="74" selection-start-line="318" selection-start-column="74" selection-end-line="318" selection-end-column="74" />
+          <folding>
+            <element signature="e#454#488#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onmt/train_single.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4101" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onmt/opts.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onmt/model_builder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4730" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onmt/meta_modules/meta_module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

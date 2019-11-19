@@ -57,7 +57,6 @@ class Statistics(object):
         """
         # Get a list of world_size lists with len(stat_list) Statistics objects
         all_stats = all_gather_list(stat_list, max_size=max_size)
-        #Poorya's modified
         our_rank = 0#get_rank()
         our_stats = all_stats[our_rank]
         for other_rank, stats in enumerate(all_stats):

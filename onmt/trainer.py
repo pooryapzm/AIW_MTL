@@ -22,8 +22,6 @@ from onmt.meta_modules import to_var
 from onmt.extended_torchtext.batch import Batch
 import numpy as np
 import math
-
-# poorya
 from onmt.translate.translator import build_translator_in_training
 
 
@@ -56,7 +54,6 @@ def build_trainer(opt, device_id, models_list, fields_list,
             models_list[task_id], fields_list[task_id]["tgt"], opt, train=False)
         train_loss_list.append(train_loss)
         valid_loss_list.append(valid_loss)
-    # Poorya
 
     trunc_size = opt.truncated_decoder  # Badly named...
     shard_size = opt.max_generator_batches
@@ -127,7 +124,6 @@ class Trainer(object):
         self.gpu_verbose_level = gpu_verbose_level
         self.report_manager = report_manager
         self.model_saver = model_saver
-        # poorya
         self.model_opt = opt
         self.fields_list = fields_list
         self.mtl_schedule = mtl_schedule
@@ -321,7 +317,6 @@ class Trainer(object):
             if (step % int(valid_steps/3) == 0):
                 for task_id in range(self.num_tasks):
                     valid_stats = gather_valid_stats(task_id, report=True)
-                    # Poorya:
                     if task_id == 0:
                         if valid_stats.loss < best_valid_loss:
                             best_valid_loss = valid_stats.loss

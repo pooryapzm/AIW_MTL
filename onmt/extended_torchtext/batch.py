@@ -20,7 +20,6 @@ class Batch(object):
     def __init__(self, data=None, dataset=None, device=None):
         """Create a Batch from a list of examples."""
         if data is not None:
-            # Poorya's extended version
             self.data = data
             self.device = device
             #
